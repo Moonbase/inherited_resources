@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "inherited_resources/version"
 
 Gem::Specification.new do |s|
-  s.name        = "moonbase-inherited_resources"
+  s.name        = "inherited_resources"
   s.version     = InheritedResources::VERSION.dup
   s.platform    = Gem::Platform::RUBY
   s.summary     = "Inherited Resources speeds up development by making your controllers inherit all restful actions so you just have to focus on what is important."
